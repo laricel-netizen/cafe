@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Petit Café</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Petit Café</h1>
+    <p>Seus dados para o pedido</p>
+</header>
+
+<nav>
+    <a href="index.html">Voltar ao cardápio</a>
+</nav>
+
+<main class="pagina-formulario">
+
+    <form id="formCadastro">
+
+        <h2>Cadastro do cliente</h2>
+
+        <label for="nome">Nome completo:</label>
+        <input type="text" id="nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" required>
+
+        <label for="senha">Senha:</label>
+        <input type="password" id="senha" required>
+
+        <label for="nascimento">Data de nascimento:</label>
+        <input type="date" id="nascimento" required>
+
+        <label for="produto">Escolha seu produto:</label>
+        <select id="produto" required>
+            <option value="">Selecione</option>
+            <option>Cappuccino - R$ 12,00</option>
+            <option>Brownie - R$ 8,00</option>
+            <option>Croissant - R$ 9,00</option>
+            <option>Café gelado - R$ 14,00</option>
+        </select>
+    </form>
+
+</main>
+<footer>
+    <p>Petit Café</p>
+</footer>
+
+</body>
+</html>
